@@ -60,18 +60,21 @@ body {
     flex-direction: column;
     font-size: larger;
 }
-.header{
+.header2{
     height: 140px;    
     background: #ffffff;
 }
-.main{
+.main2{
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.footer{
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100px;
     background: #ffffff;
 }
