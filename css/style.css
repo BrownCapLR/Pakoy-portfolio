@@ -51,3 +51,27 @@ body {
     height: 100px;
 
 }
+
+
+
+.container2{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+.header{
+    height: 140px;    
+    background: #ffffff;
+}
+.main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer{
+    height: 100px;
+    background: #ffffff;
+}
