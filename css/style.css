@@ -1,0 +1,53 @@
+:root {
+    --brandcolor-main: #185844;
+    --brandcolor-secondary: #F2EBDD;
+    --brandcolor-main-dark: #102F27;
+    --brandcolor-main-light: #78947F;
+    --brandcolor-secondary-dark: #B08A4F;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--brandcolor-main);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--brandcolor-secondary);
+    height: 140px;
+}
+
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--brandcolor-main-dark);
+    height: 100px;
+
+}
